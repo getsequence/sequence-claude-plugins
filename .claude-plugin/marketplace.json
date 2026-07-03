@@ -1,0 +1,15 @@
+{
+  "name": "sequence-claude-plugins",
+  "owner": {
+    "name": "Sequence",
+    "email": "support@getsequence.io"
+  },
+  "description": "Official Sequence plugins for Claude Code",
+  "plugins": [
+    {
+      "name": "sequence",
+      "source": "./plugins/sequence",
+      "description": "Connect Claude to your Sequence accounts, transfers, rules, and audit logs (read-only)."
+    }
+  ]
+}

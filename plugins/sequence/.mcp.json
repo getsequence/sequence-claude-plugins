@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sequence": {
+      "type": "http",
+      "url": "https://api.getsequence.io/mcp"
+    }
+  }
+}
