@@ -7,5 +7,7 @@
     "email": "support@getsequence.io"
   },
   "homepage": "https://github.com/getsequence/sequence-claude-plugins",
-  "license": "MIT"
+  "repository": "https://github.com/getsequence/sequence-claude-plugins",
+  "license": "MIT",
+  "keywords": ["sequence", "banking", "finance", "mcp", "accounts", "transfers"]
 }
