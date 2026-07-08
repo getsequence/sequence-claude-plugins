@@ -2,6 +2,10 @@
 
 Official Claude Code plugin marketplace for [Sequence](https://getsequence.io).
 
+## Requirements
+
+You need a Sequence account. Sign up at [app.getsequence.io/agentic](https://app.getsequence.io/agentic).
+
 ## Install
 
 ```
@@ -15,7 +19,7 @@ API key needed.
 ## What's included
 
 - **`sequence`** — read-only access to your Sequence accounts, transfers, rules, and audit logs
-  via the [Sequence MCP server](https://github.com/getsequence/sequence/blob/main/docs/MCP.md).
+  via the Sequence MCP server.
 
 ## What it can access
 
@@ -32,9 +36,7 @@ It cannot move money, create/edit rules, or change any account settings.
 ## Authentication
 
 Sign-in uses OAuth 2.1 (Auth0) — Claude Code opens a browser login on first use, then reuses a
-scoped, revocable token for your org. No API key to copy or store. See the
-[MCP OAuth docs](https://github.com/getsequence/sequence/blob/main/docs/MCP.md#oauth-21-authentication)
-for how the flow works.
+scoped, revocable token for your org. No API key to copy or store.
 
 ## Support
 
